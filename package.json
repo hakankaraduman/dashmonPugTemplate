@@ -4,7 +4,6 @@
   "description": "Your DashMon Application",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --config webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node index.js dev",
     "start": "node index.js"

@@ -1,0 +1,12 @@
+html
+  head
+    title= title
+    link(rel="stylesheet" href="./index.css")
+  body
+    div.container
+        img#dashmonText(src="./images/dashmonText.png")
+        div
+            img#dashmonLogo(src="./images/dashmonLogo.png")
+            span= message
+        div= `Content: ${JSON.stringify(content)}`
+    script(src='./index.js')
